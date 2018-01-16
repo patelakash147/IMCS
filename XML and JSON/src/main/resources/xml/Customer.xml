@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:customer xmlns:tns="http://www.example.org/Customer" xmlns:tns1="http://www.example.org/Address" xmlns:tns2="http://www.example.org/PaymentMethod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Customer ../xsd/Customer.xsd ">
+  <tns:customerId>1</tns:customerId>
+  <tns:name>Akash</tns:name>
+  <tns:dataOfBirth>2001-01-01</tns:dataOfBirth>
+  <tns:anualSalary>50000</tns:anualSalary>
+  <tns:address>
+    <tns1:addres>Los angeles</tns1:addres>
+  </tns:address>
+  <tns:payment>
+    <tns2:cardNumber>327384782</tns2:cardNumber>
+    <tns2:cardName>Chase</tns2:cardName>
+    <tns2:dateFrom>2001-01-01</tns2:dateFrom>
+    <tns2:dateTO>2001-01-01</tns2:dateTO>
+    <tns2:cardType>CREDITCARD</tns2:cardType>
+  </tns:payment>
+   <tns:payment>
+    <tns2:cardNumber>478367485</tns2:cardNumber>
+    <tns2:cardName>City</tns2:cardName>
+    <tns2:dateFrom>2001-01-01</tns2:dateFrom>
+    <tns2:dateTO>2001-01-01</tns2:dateTO>
+    <tns2:cardType>DEBITCARD</tns2:cardType>
+  </tns:payment>
+</tns:customer>
